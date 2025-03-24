@@ -1,0 +1,26 @@
+{
+   "name": "fut-analitcs",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "tsx --env-file=.env src/webscrapper/index.ts"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "@types/selenium-webdriver": "^4.1.28",
+      "drizzle-kit": "^0.30.5",
+      "drizzle-orm": "^0.41.0",
+      "postgres": "^3.4.5",
+      "selenium-webdriver": "^4.30.0"
+   },
+   "devDependencies": {
+      "@types/node": "^22.13.13",
+      "tsup": "^8.4.0",
+      "tsx": "^4.19.3",
+      "typescript": "^5.8.2"
+   }
+}
